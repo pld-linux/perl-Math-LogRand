@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	LogRand
+%define		pdir	Math
+%define		pnam	LogRand
 Summary:	Math::LogRand - returns a random number with log weighting
 Summary(pl):	Math::LogRand - liczby losowe z rozk³adem logarytmicznym
 Name:		perl-Math-LogRand
