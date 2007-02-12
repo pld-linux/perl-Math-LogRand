@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LogRand
 Summary:	Math::LogRand - returns a random number with log weighting
-Summary(pl):	Math::LogRand - liczby losowe z rozk³adem logarytmicznym
+Summary(pl.UTF-8):   Math::LogRand - liczby losowe z rozkÅ‚adem logarytmicznym
 Name:		perl-Math-LogRand
 Version:	0.01
 Release:	1
@@ -25,10 +25,10 @@ distribution. Returns a 'random' integer produced by the Perl rand()
 function, between input parameters, with weighting to low integers by
 log distribution.
 
-%description -l pl
-Funkcja LogRand jako argumenty przyjmuje pocz±tek i koniec przedzia³u.
-Zwraca ca³kowit± liczbê "losow±" wyprodukowan± przez perlow± funkcjê
-rand() z podanego przedzia³u o rozk³adzie logarytmicznym.
+%description -l pl.UTF-8
+Funkcja LogRand jako argumenty przyjmuje poczÄ…tek i koniec przedziaÅ‚u.
+Zwraca caÅ‚kowitÄ… liczbÄ™ "losowÄ…" wyprodukowanÄ… przez perlowÄ… funkcjÄ™
+rand() z podanego przedziaÅ‚u o rozkÅ‚adzie logarytmicznym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
