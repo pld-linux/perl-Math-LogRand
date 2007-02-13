@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LogRand
 Summary:	Math::LogRand - returns a random number with log weighting
-Summary(pl.UTF-8):   Math::LogRand - liczby losowe z rozkładem logarytmicznym
+Summary(pl.UTF-8):	Math::LogRand - liczby losowe z rozkładem logarytmicznym
 Name:		perl-Math-LogRand
 Version:	0.01
 Release:	1
