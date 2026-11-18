@@ -7,12 +7,12 @@
 Summary:	Math::LogRand - returns a random number with log weighting
 Summary(pl.UTF-8):	Math::LogRand - liczby losowe z rozkładem logarytmicznym
 Name:		perl-Math-LogRand
-Version:	0.04
-Release:	2
+Version:	0.05
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	06868e51f4c0b58d1903102cfd8ef02f
+# Source0-md5:	c058477319d64f05ac2a7f51f701f6cb
 URL:		http://search.cpan.org/dist/Math-LogRand/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
